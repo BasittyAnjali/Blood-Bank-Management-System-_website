@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+	<form action="BB.html" style="margin: 10px;">
+		<div class="text-center text-muted mb-6"><h3>Blood Donation Request Form</h3></div>
+		<div class="form-row">
+  			<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label  for="name">Donor Name</label>
+      			<input type="text" class="form-control" id="name" placeholder="Full Name" required>
+    		</div>
+    		<div class="col-md-2">
+      			<label for="age">Age</label>
+      			<input type="age" 
+      			class="form-control" id="age" placeholder="18-60" required>
+  			</div>
+  		</div><br>
+  		<div class="form-row">
+  			<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label  for="birthdate">Date Of Birth</label>
+      			<input type="Date" class="form-control" id="birthdate" required>
+    		</div>
+    		<div class="col-md-2">
+      			<label for="gender">Gender</label>
+      			<select id="gender" name="gender" class="form-control" required>
+					<option value="-1">Select</option>
+					<option>Female</option>
+					<option>Male</option>
+					<option>Other</option>
+				</select>
+  			</div>
+  		</div><br>
+  		<div class="form-row">
+  			<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label  for="weight">Weight</label>
+      			<input type="text" class="form-control" id="weight" required>
+    		</div>
+    		<div class="col-md-2">
+      			<label for="bloodgroup">Blood Group</label>
+      			<select id="bloodgroup" name="bloodgroup" class="form-control" required>
+					<option value="-1">Select</option>
+					<option>A+</option>
+					<option>B+</option>
+					<option>A-</option>
+					<option>B-</option>
+					<option>AB+</option>
+					<option>AB-</option>
+					<option>O+</option>
+					<option>O-</option>
+				</select>
+  			</div>
+  		</div><br>
+  		<div class="form-row">
+  			<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label  for="street">Street</label>
+      			<input type="text" class="form-control" id="street" placeholder="Enter Address" required>
+    		</div>
+    		<div class="col-md-2">
+      			<label for="city">City</label>
+      			<input type="text" class="form-control" id="city" placeholder="City" required>
+  			</div>
+  		</div><br>
+  		<div class="form-row">
+  			<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label for="state">State</label>
+      			<select id="state" name="state" class="form-control" required>
+					<option value="-1">Select</option>
+					<option>Andhra Pradesh</option>
+					<option>Arunachal Pradesh</option>
+					<option>Assam</option>
+					<option>Bihar</option>
+					<option>Chattisgadh</option>
+					<option>Goa</option>
+					<option>Gujarat</option>
+					<option>Haryana</option>
+					<option>Himachal Pradesh</option>
+					<option>Jharkhand</option>
+					<option>Karnataka</option>
+					<option>Kerala</option>
+					<option>Madhya Pradesh</option>
+					<option>Maharashtra</option>
+					<option>Manipur</option>
+					<option>Meghalaya</option>
+					<option>Mizoram</option>
+					<option>Nagaland</option>
+					<option>Odisha</option>
+					<option>Punjab</option>
+					<option>Rajasthan</option>
+					<option>Sikkim</option>
+					<option>Tamil Nadu</option>
+					<option>Telangana</option>
+					<option>Tripura</option>
+					<option>Uttar Pradesh</option>
+					<option>Uttarakhand</option>
+					<option>West Bengal</option>
+				</select>
+    		</div>
+    		<div class="col-md-2">
+      			<label for="pincode">Pincode</label>
+      			<input type="text" class="form-control" id="number" placeholder="zipcode" required>
+  			</div>
+  		</div><br>
+  		<div class="form-row">
+  			<div class="col-md-4"></div>
+    		<div class="col-md-2">
+    			<label for="occupation">Occupation</label>
+      			<select id="occupation" name="occupation" class="form-control" required>
+					<option value="-1">Select</option>
+					<option>Medical worker</option>
+					<option>Teacher</option>
+					<option>Student</option>
+					<option>Company employee</option>
+					<option>Other</option>
+				</select>
+  			</div>
+  			<div class="col-md-2">
+  				<label for="donationtype">Type of Donation</label>
+      			<select id="donationtype" name="donationtype" class="form-control" required>
+					<option value="-1">Select</option>
+					<option>Whole Blood</option>
+					<option>Single Donor Red Cell</option>
+					<option>Single Donar Platelets</option>
+					<option>Plasmapheresis</option>
+				</select>
+  			</div>
+  		</div><br>
+  		<div class="form-row">
+  			<div class="col-md-4"></div>
+  			<div class="col-md-2">
+      			<label  for="name">Organization Type</label>
+      			<input type="text" class="form-control" id="name" placeholder="Org. Name" required>
+    		</div>
+    		<div class="col-md-2">
+      			<label  for="birthdate">Last Donation Date</label>
+      			<input type="Date" class="form-control" id="birthdate" required>
+    		</div>
+    	</div><br>
+    	<div class="form-row">
+    		<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label for="name">First time donation?</label>
+      		</div>
+      		<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				Yes
+  				</label>
+  			</div>
+  			<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				No
+  				</label>
+  			</div>
+  		</div>
+  		<div class="form-row">
+    		<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label for="name">Last donation reaction?</label>
+      		</div>
+      		<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				Yes
+  				</label>
+  			</div>
+  			<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				No
+  				</label>
+  			</div>
+  		</div>
+  		<div class="form-row">
+    		<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label for="name">You like to donate blood in emergency?</label>
+      		</div>
+      		<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				Yes
+  				</label>
+  			</div>
+  			<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				No
+  				</label>
+  			</div>
+  		</div>
+  		<div class="form-row">
+    		<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label for="name">You like to become a regular blood donor?</label>
+      		</div>
+      		<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				Yes
+  				</label>
+  			</div>
+  			<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				No
+  				</label>
+  			</div>
+  		</div>
+  		<div class="form-row">
+    		<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label for="name">Pulse</label>
+      		</div>
+      		<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				Normal
+  				</label>
+  			</div>
+  			<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				AbNormal
+  				</label>
+  			</div>
+  		</div>
+  		<div class="form-row">
+    		<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label for="name">Heart/Lung</label>
+      		</div>
+      		<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				Normal
+  				</label>
+  			</div>
+  			<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				Abnormal
+  				</label>
+  			</div>
+  		</div>
+  		<div class="form-row">
+    		<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label for="name">Hemoglobin</label>
+      		</div>
+      		<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				Pass
+  				</label>
+  			</div>
+  			<div class="col-md-1">
+      			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  				<label class="form-check-label" for="defaultCheck1">
+    				Not pass
+  				</label>
+  			</div>
+  		</div><br>
+  		<div class="form-row">
+  			<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label  for="number">Blood Pressure</label>
+      			<input type="text" class="form-control" id="bloodpressure" placeholder="mm.Hg" required>
+    		</div>
+    		<div class="col-md-2">
+      			<label for="name">Heartbeat</label>
+      			<input type="text" class="form-control" id="heartbeat" placeholder="mg/dL" required>
+  			</div>
+  		</div><br>
+  		<div class="form-row">
+  			<div class="col-md-4"></div>
+    		<div class="col-md-2">
+      			<label  for="number">Donor Number</label>
+      			<input type="text" class="form-control" id="bloodpressure" placeholder="Donor No" required>
+    		</div>
+    		<div class="col-md-2">
+      			<label for="name">Id Card Number</label>
+      			<input type="text" class="form-control" id="idcard" placeholder="Id Card Number" required>
+  			</div>
+  		</div><br>		
+	</form>
+	<div class="text-center">
+  		<button id="submit" type="submit" class="btn btn-primary col-md-1">Submit</button>
+  	</div>
+	
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
